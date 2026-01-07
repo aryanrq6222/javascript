@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Manipulation Example</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <h1 id="heading">DOM Manipulation Demo</h1>
+    <button onclick="changeHeadingColor()">Change Heading Color</button>
+
+    <hr>
+
+    <p class="message">This is the original paragraph text.</p>
+    <button onclick="changeText()">Change Text</button>
+
+    <hr>
+
+    <div class="box" id="colorBox">
+        This div's background color will change.
+    </div>
+    <button onclick="changeDivColor()">Change Div Background</button>
+
+    <hr>
+
+    <input type="text" id="userInput" placeholder="Enter something">
+    <button onclick="displayInput()">Display Input</button>
+    <p id="outputText"></p>
+
+    <hr>
+
+    <p id="togglePara">This paragraph can be hidden or shown.</p>
+    <button onclick="toggleParagraph()">Hide / Show Paragraph</button>
+
+    <script src="script2.js"></script>
+</body>
+</html>
